@@ -58,15 +58,20 @@ Before using this script, ensure you have the following:
 Clone the repository containing the script and `dump1090`:
 
 ```bash
-git clone https://github.com/yourusername/adsb-to-cot.git
+git clone https://github.com/jaw1999/adsb-to-cot.git
 cd adsb-to-cot
 
 
 
 ### 2. Build Dump1090
 
+mkdir -p external
+cd external
+git clone https://github.com/flightaware/dump1090.git
+cd ..
+
 cd external/dump1090
-make BLADERF=no
+make
 cd ../../
 
 Configuration
