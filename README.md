@@ -14,10 +14,8 @@ This script converts ADS-B data received from aircraft into Cursor on Target (Co
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Testing with Fake ADS-B Data](#testing-with-fake-ads-b-data)
-- [Troubleshooting](#troubleshooting)
 - [Customization](#customization)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ---
 
