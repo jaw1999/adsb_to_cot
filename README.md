@@ -43,7 +43,7 @@ The script performs the following functions:
 
 Before using this script, ensure you have the following:
 
-- **Python 3.6+**: The script is written in Python and requires version 3.6 or higher.
+- **Python 3.6+**: The script is written in Python and requires version 3.7 or higher.
 - **RTL-SDR Device**: A compatible USB dongle to receive ADS-B signals.
 - **Antenna**: An antenna suitable for 1090 MHz frequency to receive ADS-B broadcasts.
 - **\`dump1090\` Software**: A Mode S decoder for RTL-SDR devices.
